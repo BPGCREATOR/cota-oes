@@ -1,0 +1,6 @@
+{
+  "name": "LogisFlow - Briefing & Cotações Logísticas",
+  "description": "Sistema interativo de coleta de briefings, decisão logística e geração de cotações para transporte, armazém, cabotagem e serviços especiais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

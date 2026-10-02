@@ -1,0 +1,17 @@
+// Principais tipos de embalagens utilizados em fretes aéreos de carga (Padrão IATA / Logística Aérea)
+export const AIR_FREIGHT_PACKAGING_OPTIONS = [
+  { value: 'CAIXAS DE PAPELÃO (CARTON BOX)', label: 'CAIXAS DE PAPELÃO (CARTON BOX)' },
+  { value: 'PALETE DE MADEIRA PADRÃO (WOODEN PALLET / SKID)', label: 'PALETE DE MADEIRA PADRÃO (WOODEN PALLET / SKID)' },
+  { value: 'PALETE AÉREO ULD (PMC / PAG / PLA)', label: 'PALETE AÉREO ULD (PMC / PAG / PLA)' },
+  { value: 'CONTAINER AÉREO ULD (AKE / DQF / AAP)', label: 'CONTAINER AÉREO ULD (AKE / DQF / AAP)' },
+  { value: 'ENGRADADO DE MADEIRA (WOODEN CRATE)', label: 'ENGRADADO DE MADEIRA (WOODEN CRATE)' },
+  { value: 'CAIXA DE MADEIRA REFORÇADA (WOODEN BOX)', label: 'CAIXA DE MADEIRA REFORÇADA (WOODEN BOX)' },
+  { value: 'CAIXA TÉRMICA / ISOPOR (COOL BOX / DRY ICE)', label: 'CAIXA TÉRMICA / ISOPOR (COOL BOX / DRY ICE)' },
+  { value: 'TAMBOR / DRUM (AÇO OU FIBRA)', label: 'TAMBOR / DRUM (AÇO OU FIBRA)' },
+  { value: 'BOMBONA / JERRICAN (PLÁSTICO HOMOLOGADO)', label: 'BOMBONA / JERRICAN (PLÁSTICO HOMOLOGADO)' },
+  { value: 'ENVELOPE / FLYER / POUCH (COURIER / AMOSTRAS)', label: 'ENVELOPE / FLYER / POUCH (COURIER / AMOSTRAS)' },
+  { value: 'TUBOS / CILINDROS / ROLOS', label: 'TUBOS / CILINDROS / ROLOS' },
+  { value: 'SACOS / BAGS / BIG BAG', label: 'SACOS / BAGS / BIG BAG' },
+  { value: 'CARGA SOLTA / VOLUME ESPECIAL', label: 'CARGA SOLTA / VOLUME ESPECIAL' },
+  { value: 'OUTROS (ESPECIFICAR NAS OBSERVAÇÕES)', label: 'OUTROS (ESPECIFICAR NAS OBSERVAÇÕES)' },
+];
